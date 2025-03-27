@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+    margin: 0rem;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(90, 179, 111);
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+
+    
+    
+    
+}
+
+.navbar a:hover {
+    font-size: 30px;
+  }
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    margin: 0px 10px;
+    
+}
+
+.site-logo {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(90, 179, 111);
+    text-decoration: none;
+    transition: .5s;
+    
+}
+
+.site-logo:hover {
+    font-size: 110px;
+}
+
+.site-main {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.menu-flexbox {
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu_items {
+    color:  rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    background-color: rgb(90, 179, 111);
+    border-radius: 25px; 
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+th {
+    font-size: 40px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu img {
+    max-width: 200px;
+    border-radius: 25px;
+    box-shadow: 5px;
+    -webkit-box-shadow: 6px 6px 5px 0px rgb(52, 77, 52);
+    -moz-box-shadow: 6px 6px 5px 0px rgb(52, 77, 52);
+    box-shadow: 6px 6px 5px 0px rgb(52, 77, 52);
+    transition: .5s;
+}
+
+.menu img:hover {
+    max-width: 220px;
+}
+
+footer {
+    background-color: rgb(90, 179, 111);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
