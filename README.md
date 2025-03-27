@@ -5,3 +5,5 @@ When working on the other pages I experimented with background images but was ha
 The footer was giving me trouble while i was working with the background images so i took it off of the pages that it wasnt working on. 
 
 I tried to experiment with different techniques on each page to see what i was able to do and get more fammiliar with the syntax while still maintaining a level of cohesiveness throughout the website using color schemes.
+
+another issue i found myself with was the message box on the contact page. I couldnt get it to grow verically as someone typed so you could see the entirity of the message. 
